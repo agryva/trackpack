@@ -1,5 +1,8 @@
 # trackpack
-Flutter apps Design inspired from https://dribbble.com/shots/8943549-Paypack-Delivery-App
+- Flutter apps Design inspired base from https://dribbble.com/shots/8943549-Paypack-Delivery-App
+- Bottom menu inspired from https://www.instagram.com/p/CAFriUMgZyF/ (Gojek Home 4.0)
+- Dialog design inspired from https://dribbble.com/shots/7119359/attachments/122321?mode=media,
+- Detail Page design inspired from https://dribbble.com/shots/11583722-Coody-Food-iOS-UI-Kit-I
 
 <p align="center">
   <a href="https://github.com/agryva">
