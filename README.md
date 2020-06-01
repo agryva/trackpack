@@ -8,7 +8,7 @@ Flutter apps Design inspired from https://dribbble.com/shots/8943549-Paypack-Del
     <img src="https://img.shields.io/badge/Support-Recommed%2FEndorse%20me%20on%20Linkedin-yellow?style=for-the-badge&logo=linkedin" alt="Recommend me on LinkedIn" /></a>
 
 # Download
-<a href=""https://github.com/agryva/trackpack/raw/master/apk/app-release.apk> Download Release APK </a>
+<a href="https://github.com/agryva/trackpack/raw/master/apk/app-release.apk"> Download Release APK </a>
 
 
 # Screenshots
