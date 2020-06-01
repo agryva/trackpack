@@ -10,16 +10,34 @@ Flutter apps Design inspired from https://dribbble.com/shots/8943549-Paypack-Del
 # Description
 This application is made to hone our ability to create a User Interface that has been created by the UI designer using flutter technology, not only is this application useful for entering admob into the application
 
-# Download
-<a href=""https://github.com/agryva/trackpack/raw/master/apk/app-release.apk> Download Release APK </a>
-
-
 # Screenshots
 <img height="480px" src="screenshot/home.jpg"><img height="480px" src="screenshot/detail.jpg"><img height="480px" src="screenshot/dialog.jpg">
 
 # Gif
 <img height="480px" src="screenshot/vid.gif">
 
+# Download
+<a href="https://github.com/agryva/trackpack/raw/master/apk/app-release.apk"> Download Release APK </a>
+
+# Getting Started
+
+- Please change application id in Android project or iOS project
+- Make a firebase project using new application id that you have made before
+- Make a admob project using new application id that you have made before
+- sync a admob project with your firebase project (you can see tutorial in google 😁)
+
+### Change Admob Id
+put your admob appId, interestid, bannerid in utils.dart file
+
+```dart
+  static final String appId = "YOUR KEY" ?? FirebaseAdMob.testAppId;
+  static final String interestId = "YOUR KEY" ?? InterstitialAd.testAdUnitId;
+  static final String bannerId ="YOUR KEY" ?? BannerAd.testAdUnitId;
+```
+### Running
+```dart
+  Flutter build apk
+```
 
 ## Using Dependencies:
 
@@ -38,3 +56,9 @@ This application is made to hone our ability to create a User Interface that has
 | flutter_config|          1.0.7         |
 | lottie|          0.3.6        |
 | flutter_spinkit|         4.1.2       |
+
+# Donate
+
+> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> - [PayPal](https://www.paypal.me/agryva/)
